@@ -1,0 +1,31 @@
+<mat-card class="head">
+  <mat-card-header>Express yourself here!</mat-card-header>
+  <mat-card-content>I am your personal note</mat-card-content>
+</mat-card>
+
+
+<mat-sidenav-container class="example-container">
+  <mat-sidenav mode="side" opened>
+    <mat-nav-list role="listitem">
+      <a mat-list-item routerLink='first' role="listitem"><mat-icon aria-hidden="false" aria-label="Example info icon" fontIcon="add_circle"></mat-icon>Create</a>
+      <a mat-list-item routerLink='second' role="listitem"><mat-icon aria-hidden="false" aria-label="Example info icon" fontIcon="info"></mat-icon>About</a>
+      <a mat-list-item routerLink='third'  role="listitem"><mat-icon aria-hidden="false" aria-label="Example settings icon" fontIcon="settings"></mat-icon>settings</a>
+      <a mat-list-item routerLink='fourth' role="listitem"><mat-icon aria-hidden="false" aria-label="Example home icon" fontIcon="home"></mat-icon>Home</a>
+      <a mat-list-item routerLink='fifth'  role="listitem"><mat-icon aria-hidden="false" aria-label="Example feedback icon" fontIcon="feedback"></mat-icon>Feedback</a>
+    </mat-nav-list>
+
+  </mat-sidenav>
+  <!-- <mat-list role="listitem">
+    <a mat-list-item role="listitem">Create file</a>
+    <a mat-list-item role="listitem">Create file</a>
+    <a mat-list-item role="listitem">Create file</a>
+    <a mat-list-item role="listitem">Create file</a>
+    <a mat-list-item role="listitem">Create file</a>
+  </mat-list>  -->
+
+  <mat-sidenav-content><p style="height: 88vh;"><router-outlet> </router-outlet></p>
+
+  </mat-sidenav-content>
+  
+</mat-sidenav-container>
+

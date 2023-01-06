@@ -1,0 +1,50 @@
+.head{
+    background-color:rgb(55, 56, 78);
+}
+mat-card-content{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration: solid;
+}
+
+/*giving color to mat-list*/    
+ mat-card-header{
+    color:white;
+    margin-left: 670px;
+    margin-top: 10px;
+    font-size: 25px;
+} 
+/*giving mouse hover to a tags*/
+mat-nav-list a:hover{
+    background-color:gold;
+}
+/* .example-container {
+    background: grey;
+    position: absolute;
+    width: 300px;
+  } */
+
+ mat-sidenav{
+   background-color:dimgrey;
+  /* padding: 10px 5px 5px 5px;*/
+   margin-top: 0px;
+   font-size: 20px;
+   text-decoration: double; 
+} 
+/* mat-sidenav-content{
+    position: relative;
+    margin-top: 300px;
+    margin-left: 20px;
+} */
+mat-sidenav-content{
+    background-color:lightcoral;
+}
+
+/* footer{
+    text-align: center;
+    background-color:lightcoral;
+    color: black;
+    /* font-weight: solid;
+    font-size: 20px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */

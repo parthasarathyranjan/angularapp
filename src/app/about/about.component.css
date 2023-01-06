@@ -1,0 +1,25 @@
+/* *{
+    background-color: white;
+    height: 300px;
+    width: 300px;
+} */
+h1{
+    color: black;
+    /* background-color: white; */
+    text-align: center;
+    margin-top: 30px;
+
+}
+
+#content{
+    text-align: center;
+    color: darkblue;
+    font-size: 30px;
+}
+
+#update{
+    text-align: center;
+    color:darkslategrey;
+    font-size: 50px;
+    padding: 20px 0px 20px 0px;
+}
