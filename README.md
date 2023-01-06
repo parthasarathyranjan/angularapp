@@ -1,5 +1,7 @@
 The output of  the website is given below:
-![firstoutput](https://user-images.githubusercontent.com/83720501/211034527-199bc8f7-5f5b-47ea-b282-afc84c096e38.png)
+![Second Output](https://user-images.githubusercontent.com/83720501/211034527-199bc8f7-5f5b-47ea-b282-afc84c096e38.png)
+
+![First Output](https://user-images.githubusercontent.com/83720501/211034752-4e6c210d-ad02-4efb-87c4-d44e26f68477.png)
 
 
 
